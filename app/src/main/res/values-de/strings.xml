@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Telefon</string>
+    <string name="busy_talking">Reden beschäftigt, Bitte versuchen Sie es später!</string>
+    <string name="busy_loadingphonebook">Lädt Telefonbuch, Bitte versuchen Sie es später!</string>
+    <string name="busy_scanningdevice">Scaning Gerät, Bitte versuchen Sie es später!</string>
+    <string name="matchdevice">Gekoppelte Geräte</string>
+    <string name="searchdevice">Verfügbare Geräte</string>
+    <string name="search">Suche</string>
+    <string name="bluetooth_device_context_connect">Verbinden?</string>
+    <string name="bluetooth_device_context_disconnect">Verbindung trennen?</string>
+    <string name="device_name">Gerätename</string>
+    <string name="pin">PIN vergessen</string>
+    <string name="auto_connect">Auto connect</string>
+    <string name="auto_answer">Auto-Antwort</string>
+</resources>

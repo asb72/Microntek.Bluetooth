@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ExpandableListView android:scrollbarStyle="outsideOverlay" android:id="@id/matchlist" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="3.0px" android:layout_marginRight="6.0px" android:listSelector="@*android:color/transparent" android:scrollingCache="false" android:cacheColorHint="#00000000" android:childDivider="#30ffffff" android:divider="#30ffffff" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+    <LinearLayout android:gravity="center" android:layout_gravity="right|center" android:orientation="vertical" android:background="@drawable/btn_bar_bg" android:layout_width="114.0px" android:layout_height="399.0px" android:layout_marginRight="9.0px">
+        <ImageButton android:id="@id/matchsearch" android:background="@drawable/btn2_up" android:layout_width="108.0px" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:src="@drawable/ico_search1" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/matchconnect" android:background="@drawable/btn2_mid" android:layout_width="108.0px" android:layout_height="wrap_content" android:src="@drawable/ico_btcon" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/matchdisconnect" android:background="@drawable/btn2_mid" android:layout_width="108.0px" android:layout_height="wrap_content" android:src="@drawable/ico_btdis" android:layout_weight="1.0" />
+        <ImageButton android:id="@id/matchdelete" android:background="@drawable/btn2_down" android:layout_width="108.0px" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:src="@drawable/ico_dels" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bluetooth</string>
+    <string name="modulename">Название устройства</string>
+    <string name="modulepassword">PIN пароль</string>
+    <string name="autoanswer">Автоответчик</string>
+    <string name="autoconnect">Автоматическое соединение</string>
+    <string name="busy_talking">Говоря занят, Пожалуйста, попробуйте позже!</string>
+    <string name="busy_loadingphonebook">Загрузка телефонной книги, пожалуйста, попытайтесь позже!</string>
+    <string name="busy_scanningdevice">Поиск устройств, Пожалуйста, попробуйте позже!</string>
+    <string name="matchdevice">Сопряженные устройства</string>
+    <string name="searchdevice">Доступные устройства</string>
+    <string name="search">поиск</string>
+</resources>

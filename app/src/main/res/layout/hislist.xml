@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_hisbg" android:background="@drawable/history_listbg" android:layout_width="fill_parent" android:layout_height="63.0px" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="20.0px" android:textColor="#ffc0c0c0" android:gravity="left|center" android:id="@id/tv_hisname" android:layout_width="168.0px" android:layout_height="fill_parent" android:layout_marginLeft="12.0px" android:singleLine="true" />
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:gravity="left|center" android:id="@id/tv_hisnumber" android:layout_width="177.0px" android:layout_height="fill_parent" android:layout_marginLeft="12.0px" android:singleLine="true" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0px" android:layout_height="fill_parent" android:layout_marginLeft="12.0px" android:layout_weight="1.0">
+            <TextView android:textSize="14.0px" android:textColor="#ffc0c0c0" android:id="@id/tv_listday" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="14.0px" android:textColor="#ffc0c0c0" android:id="@id/tv_listtime" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

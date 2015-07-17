@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="horizontal" android:background="#c0000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="156.0px">
+        <include layout="@layout/content_frame" />
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="bottom" android:layout_width="177.0px" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom|left|center" android:orientation="vertical" android:layout_width="147.0px" android:layout_height="fill_parent">
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_dial" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_dial" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_phonebook" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_book" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_history" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_histroy" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_match" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_match" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_music" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_btmusic" android:layout_weight="1.0" />
+            <ImageButton android:gravity="center_vertical" android:id="@id/pub_setup" android:background="@drawable/navi_btn" android:layout_width="fill_parent" android:layout_height="0.0px" android:src="@drawable/ico_setup" android:layout_weight="1.0" />
+        </LinearLayout>
+        <ImageView android:layout_width="147.0px" android:layout_height="fill_parent" android:src="@drawable/navi_btn_cover" android:scaleType="fitXY" />
+        <ImageView android:layout_width="30.0px" android:layout_height="fill_parent" android:layout_marginLeft="147.0px" android:src="@drawable/navi_btn_extend" android:scaleType="fitXY" />
+    </FrameLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/busyshow" android:visibility="invisible" android:layout_width="90.0px" android:layout_height="90.0px" android:layout_marginLeft="30.0px" android:max="100" android:progress="50" style="@android:style/Widget.ProgressBar.Large" />
+</FrameLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">蓝牙</string>
+    <string name="modulename">设备名称:</string>
+    <string name="modulepassword">配对密码:</string>
+    <string name="autoanswer">自动接听</string>
+    <string name="autoconnect">自动连接</string>
+    <string name="busy_talking">通话忙，请梢后再试！</string>
+    <string name="busy_loadingphonebook">正在下载电话本，请梢后再试！</string>
+    <string name="busy_scanningdevice">正在搜索设备，请梢后再试！</string>
+    <string name="matchdevice">已配对设备</string>
+    <string name="searchdevice">可用设备</string>
+    <string name="search">搜索</string>
+    <string name="bluetooth_device_context_connect">连接?</string>
+    <string name="bluetooth_device_context_disconnect">断开?</string>
+</resources>

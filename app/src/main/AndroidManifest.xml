@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest android:versionCode="1" android:versionName="1.0" package="com.microntek.bluetooth"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <application android:theme="@*android:style/Theme.Wallpaper.NoTitleBar" android:label="@string/app_name" android:icon="@drawable/ic_bluetooth" android:name="com.microntek.bluetooth.notification.MainApplication" android:allowBackup="true">
+        <uses-library android:name="android.microntek.serial" />
+        <activity android:label="@string/app_name" android:name=".BlueToothActivity" android:excludeFromRecents="true" android:launchMode="singleTask" android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.microntek.bluetooth.notification.btNotificationReceiver">
+            <intent-filter>
+                <action android:name="com.microntek.smallbtoff" />
+                <action android:name="com.microntek.smallbton" />
+                <action android:name="com.microntek.bt.report" />
+                <action android:name="com.microntek.irkeyDown" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+    </application>
+</manifest>

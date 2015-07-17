@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0px">
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:layout_width="189.0px" android:layout_height="wrap_content" android:layout_marginLeft="84.0px" android:text="@string/modulename" android:singleLine="true" />
+        <EditText android:textSize="18.0px" android:textColor="#ffc0c0c0" android:ellipsize="end" android:gravity="center" android:id="@id/btname" android:background="@drawable/setup_textbg" android:layout_width="255.0px" android:layout_height="54.0px" android:layout_marginLeft="39.0px" android:singleLine="true" android:inputType="textFilter" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/history_listsplice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="1.5px" android:layout_marginRight="6.0px" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5px">
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:layout_width="189.0px" android:layout_height="wrap_content" android:layout_marginLeft="84.0px" android:text="@string/modulepassword" android:singleLine="true" />
+        <EditText android:textSize="18.0px" android:textColor="#ffc0c0c0" android:gravity="center" android:id="@id/btpinpassword" android:background="@drawable/setup_textbg" android:layout_width="255.0px" android:layout_height="54.0px" android:layout_marginLeft="39.0px" android:singleLine="true" android:maxLength="4" android:numeric="integer" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/history_listsplice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="1.5px" android:layout_marginRight="6.0px" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5px">
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:layout_width="189.0px" android:layout_height="wrap_content" android:layout_marginLeft="84.0px" android:text="@string/autoanswer" android:singleLine="true" />
+        <ImageView android:id="@id/autoanswercheck" android:background="@drawable/onoff" android:clickable="true" android:layout_width="140.0px" android:layout_height="54.0px" android:layout_marginLeft="66.0px" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/history_listsplice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="1.5px" android:layout_marginRight="6.0px" />
+    <LinearLayout android:gravity="left|center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="1.5px">
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:layout_width="189.0px" android:layout_height="wrap_content" android:layout_marginLeft="84.0px" android:text="@string/autoconnect" android:singleLine="true" />
+        <ImageView android:id="@id/autoconnectcheck" android:background="@drawable/onoff" android:clickable="true" android:layout_width="140.0px" android:layout_height="54.0px" android:layout_marginLeft="66.0px" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/history_listsplice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="1.5px" android:layout_marginRight="6.0px" />
+</LinearLayout>

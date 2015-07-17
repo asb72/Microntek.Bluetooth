@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">24.0px</dimen>
+    <dimen name="activity_vertical_margin">24.0px</dimen>
+    <dimen name="kbordsize_w">441.0px</dimen>
+    <dimen name="kbordsize_h">441.0px</dimen>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_sep" android:background="#30ffffff" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/iv_pbbg" android:background="@drawable/history_listbg" android:layout_width="fill_parent" android:layout_height="51.0px" android:layout_marginBottom="1.0px">
+        <TextView android:textColor="#ffc0c0c0" android:gravity="center" android:layout_gravity="center" android:id="@id/tv_firstchar" android:background="@drawable/letterbg" android:visibility="invisible" android:layout_width="42.0px" android:layout_height="42.0px" android:layout_marginLeft="8.0px" />
+        <TextView android:textSize="20.0px" android:textColor="#ffc0c0c0" android:gravity="left|center" android:id="@id/tv_friendname" android:layout_width="180.0px" android:layout_height="fill_parent" android:layout_marginLeft="15.0px" android:singleLine="true" />
+        <TextView android:textSize="18.0px" android:textColor="#ffc0c0c0" android:gravity="left|center" android:id="@id/tv_friendnumber" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0px" android:layout_marginRight="12.0px" />
+    </LinearLayout>
+</LinearLayout>

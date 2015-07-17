@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0px">
+        <ImageButton android:layout_gravity="center" android:id="@id/historyincall" android:background="@drawable/type" android:clickable="true" android:layout_width="170.0px" android:layout_height="60.0px" android:layout_marginLeft="0.0px" android:src="@drawable/icon_in" />
+        <ImageView android:background="@drawable/type_sep" android:layout_width="wrap_content" android:layout_height="60.0px" />
+        <ImageButton android:layout_gravity="center" android:id="@id/historyoutcall" android:background="@drawable/type" android:clickable="true" android:layout_width="170.0px" android:layout_height="60.0px" android:src="@drawable/icon_out" />
+        <ImageView android:background="@drawable/type_sep" android:layout_width="wrap_content" android:layout_height="60.0px" />
+        <ImageButton android:layout_gravity="center" android:id="@id/historyunanswercall" android:background="@drawable/type" android:clickable="true" android:layout_width="170.0px" android:layout_height="60.0px" android:src="@drawable/icon_unanswered" />
+        <ImageView android:background="@drawable/type_btn_ext" android:layout_width="wrap_content" android:layout_height="60.0px" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="left" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/historylist" android:layout_width="0.0px" android:layout_height="wrap_content" android:layout_marginLeft="6.0px" android:layout_marginTop="63.0px" android:layout_marginRight="6.0px" android:listSelector="@*android:color/transparent" android:scrollingCache="false" android:divider="#30ffffff" android:dividerHeight="1.0px" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="center" android:layout_gravity="right|center" android:orientation="vertical" android:background="@drawable/btn_bar_bg" android:layout_width="114.0px" android:layout_height="399.0px" android:layout_marginRight="9.0px">
+            <ImageButton android:id="@id/historydial" android:background="@drawable/btn2_up" android:layout_width="108.0px" android:layout_height="wrap_content" android:layout_marginTop="3.0px" android:src="@drawable/ico_pdial" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/historydelete" android:background="@drawable/btn2_mid" android:layout_width="108.0px" android:layout_height="wrap_content" android:src="@drawable/ico_dels" android:layout_weight="1.0" />
+            <ImageButton android:id="@id/historydeleteall" android:background="@drawable/btn2_down" android:layout_width="108.0px" android:layout_height="wrap_content" android:layout_marginBottom="3.0px" android:src="@drawable/ico_dela" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
